@@ -6,3 +6,7 @@ tags: ["test"]
 ---
 
 ## Testing the title tag
+
+```js
+console.log("hello world");
+```

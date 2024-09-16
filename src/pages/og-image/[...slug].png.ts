@@ -1,5 +1,5 @@
-import RobotoMonoBold from "@/assets/roboto-mono-700.ttf";
-import RobotoMono from "@/assets/roboto-mono-regular.ttf";
+import CommitMonoBold from "@/assets/CommitMono-700-Regular.otf";
+import CommitMono from "@/assets/CommitMono-400-Regular.otf";
 import { getAllPosts } from "@/data/post";
 import { siteConfig } from "@/site-config";
 import { getFormattedDate } from "@/utils/date";
@@ -12,14 +12,14 @@ const ogOptions: SatoriOptions = {
 	// debug: true,
 	fonts: [
 		{
-			data: Buffer.from(RobotoMono),
-			name: "Roboto Mono",
+			data: Buffer.from(CommitMono),
+			name: "Commit Mono",
 			style: "normal",
 			weight: 400,
 		},
 		{
-			data: Buffer.from(RobotoMonoBold),
-			name: "Roboto Mono",
+			data: Buffer.from(CommitMonoBold),
+			name: "Commit Mono",
 			style: "normal",
 			weight: 700,
 		},
